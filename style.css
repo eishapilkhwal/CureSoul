@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(/image/img_1.jpg);
+	background-image: url(../images/meditation.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -264,16 +264,130 @@ p {
 
 /* End Hero Section */
 
-/* Services Section */
+/*About Section*/
+#aboutsec .aboutsec {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#aboutsec .about-top {
+	max-width: 700px;
+	margin: 0 auto;
+}
+#aboutsec .about-bottom {
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+#aboutsec .about-item {
+	flex:1;
+	flex-basis: 80%;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+#aboutsec .about-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+#aboutsec .about-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+#aboutsec .about-item h2 {
+	font-size: 2rem;
+	color: white;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+#aboutsec .about-item p {
+	color: white;
+	text-align: left;
+}
 
-/* End Services Section */
+/*End of about section*/
+
+/*Service Section*/
+
+#services .services {
+	flex-direction: column;
+	text-align: center;
+	max-width: 2000px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+#services .service-top {
+	max-width: 800px;
+	margin: 0 auto;
+}
+#services .service-bottom {
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+#services .service-item {
+	flex:1;
+	flex-basis: 80%;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 120px;
+	border-radius: 10px;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	
+}
+
+#services .service-bottom .icon1 {
+	height: 310px;
+	width: 360px;
+	margin-bottom: 20px;
+	
+}
+#services .service-bottom .icon2 {
+	height: 230px;
+	width: 290px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+/*End of service section*/
 
 /* FAQ section */
 
 /* End FAQ section */
-
-/* About Section */
-/* End About Section */
 
 /* contact Section */
 
@@ -360,7 +474,7 @@ p {
 		padding: 20px 60px;
 	}
 	h1.section-title {
-		font-size: 6rem;
+		font-size: 5rem;
 	}
 
 	/* Hero */
@@ -369,17 +483,9 @@ p {
 	}
 	/* End Hero */
 
-	/* Services Section */
-
-	/* End Services Section */
-
 	/* FAQ */
 	
 	/* End FAQ Project */
-
-	/* About */
-	
-	/* End About */
 
 	/* contact  */
 	
@@ -411,9 +517,15 @@ p {
 	}
 	/* End header */
 
+	#aboutsec .about-bottom .about-item {
+		flex-basis: 22%;
+		margin: 1.5%;
+	}
+	
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
+
 }
 /* End  Media Query For Desktop */
