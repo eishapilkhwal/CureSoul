@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(images\meditation.jpg );
+	background-image: url(images\meditation.jpg);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
