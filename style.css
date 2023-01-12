@@ -436,7 +436,7 @@ p {
 
 /*----FORM SECTION----*/
 .bg-img{
-    background-image: url(../images/meditation.jpg);
+    background-image: url(images/meditation.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
