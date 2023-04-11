@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <!-- Header -->
+        <!-- Header -->
     <section id="header">
         <div class="header container">
         <div class="nav-bar">
@@ -35,33 +35,25 @@
     <!-- End Header -->
     <div class="bg-img">
         <div class="content">
-            <header>Sign Up As User</header>
-            <form action="SignIn.php" method="post">
+            <header>Login As Admin</header>
+            <form action="LoginAdmin.php" method="post">
                 <div class="field space-1">
-                    <input type="text" placeholder="Enter Username" name="username">
-                </div>
-                 <div class="field space-1">
-                  <input type="text" placeholder="Enter DOB" onfocus="(this.type='date')" name="dob">
-              </div>
-              <div class="field space-1">
-                <input type="text" placeholder="Enter Mail-Id" name="email">
-            </div>
-                <div class="field space-1">
-                    <input type="password" placeholder="Enter Password" name="password">
+                    
+                    <input type="text" placeholder="Enter Mail-Id" name="email" required>
                 </div>
                 <div class="field space-1">
-                    <input type="text" placeholder="Enter Your hobby" name="security_ques" required>
-                </div>
-                <div class="radio space-1">
-                  <input for="Male"type="radio" value="m" name="gender"><p>Male</p>
-                  <input for="Female" type="radio" value="f" name="gender"><p>Female</p>
-                  <input for="Other" type="radio" value="o" name="gender"><p>Other</p>
-                </div>
-                <div class="field space-2">
-                    <input type="submit" value="Create Account">
+                    
+                    <input type="password" placeholder="Enter Password" name="password" required>
                 </div>
                 <div class="pass">
-                    <p>Already have an account? <a href="login.html"><span>LogIn</span></a> </p>
+                    <a href="recoverAdmin.html">Forgot Password</a>
+                </div>
+                <div class="field space-2">
+                    
+                    <input type="submit" value="LOGIN">
+                </div>
+                <div class="pass">
+                    <p>Not a Member?<a href="SignupAdmin.html"><span> SignUp</span></a></p>
                 </div>
             </form>
         </div>

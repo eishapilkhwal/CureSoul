@@ -4,56 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <title>CureSoul | Constant Support</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
         <!-- Header -->
-        <section id="header">
-            <div class="header container">
-            <div class="nav-bar">
-                <div class="brand">
-                <a href="#hero">
-                    <h1><span>C</span>ure <span>S</span>oul</h1>
-                </a>
-                </div>
-                <div class="nav-list">
-                <div class="hamburger">
-                    <div class="bar"></div>
-                </div>
-                <ul>
-                    <li><a href="#hero" data-after="Home">Home</a></li>
-                    <li><a href="#aboutsec" data-after="About">About</a></li>
-                    <li><a href="#services" data-after="Service">Services</a></li>
-                    <li><a href="#faqs" data-after="FAQ">FAQ</a></li>
-                    <li><a href="#contact" data-after="Contact">Contact Us</a></li>
-                </ul>
-                </div>
+    <section id="header">
+        <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+            <a href="index.html">
+                <h1><span>C</span>ure <span>S</span>oul</h1>
+            </a>
             </div>
+            <div class="nav-list">
+            <div class="hamburger">
+                <div class="bar"></div>
             </div>
-        </section>
-        <!-- End Header -->
+            <ul>
+                <li><a href="index.html" data-after="Home">Home</a></li>
+                <li><a href="index.html#aboutsec" data-after="About">About</a></li>
+                <li><a href="index.html#services" data-after="Service">Services</a></li>
+                <li><a href="index.html#faqs" data-after="FAQ">FAQ</a></li>
+                <li><a href="index.html#contact" data-after="Contact">Contact Us</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End Header -->
     <div class="bg-img">
         <div class="content">
             <header>Login Form</header>
-            <form action="#">
+            <form action="LogIn.php" method="post">
                 <div class="field space-1">
                     
-                    <input type="text" placeholder="Enter Username" required>
+                    <input type="text" placeholder="Enter User Mail-Id" name="usermail" required>
                 </div>
                 <div class="field space-1">
                     
-                    <input type="password" placeholder="Enter Password" required>
+                    <input type="password" placeholder="Enter Password" name="password" required>
                 </div>
                 <div class="pass">
-                    <a href="#">Forgot Password</a>
+                   <a href="recoverdemo.html">Forgot Password</a>
                 </div>
                 <div class="field space-2">
                     
                     <input type="submit" value="LOGIN">
                 </div>
                 <div class="pass">
-                    <p>Not a Member?</p><a href="signup.html">SignUp</a>
+                    <p>Not a Member?<a href="signup.html"><span> SignUp</span></a></p>
                 </div>
             </form>
         </div>
