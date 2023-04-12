@@ -27,6 +27,20 @@ InHouse Project
 
     We would like to express our deep appreciation and indebtedness to our teachers, mentors and coordinators for their endless support, kindness and guidance.
 
+# Tech Stack
+
+### HARDWARE REQUIREMENTS
+
+- PROCESSOR	:	Intel® Core™ i3 Processor
+- RAM 		: 	2GB minimum
+- SSD 			: 	128GB minimum
+
+### SOFTWARE REQUIREMENTS
+
+- TOOL		:	Visual Studio Code 2008
+- OS			:	Windows 7
+- FRONTEND 	:	HTML, CSS, JavaScript
+
 # Interface
  ![Home](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/homePage_1.png)
  ![About](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/About_2.png)
@@ -50,30 +64,32 @@ InHouse Project
   
  # Repository
   https://github.com/eishapilkhwal/CureSoul
+  
+ 
 
 # Appendix
-	**Beck Inventory Test:**
+	**Beck Inventory Test**
 A copy of the Beck Inventory Test, which is used to calculate the user's depression level. This appendix should include instructions for administering the test, scoring the results, and interpreting the results.
    
-    **Music, Quotations, and Poetry:**
+    **Music, Quotations, and Poetry**
 A list of the music, quotations, and poetry featured on the CureSoul website, along with attribution information and a brief description of how each item relates to mental health and depression.
     
-    **Database Schema:**
+    **Database Schema**
 A diagram of the database schema used by the CureSoul website, showing the structure of the tables, relationships between tables, and fields contained in each table.
 
-    **User Interface Mockups:**	
+    **User Interface Mockups**	
 Mockups of the user interface for the CureSoul website, showing how the different tabs, forms, and buttons will be laid out on the page.
 
-    **Technical Specifications:**
+    **Technical Specifications**
 A detailed technical specification document, outlining the software and hardware requirements for running the CureSoul website, including the programming languages, frameworks, and libraries used.
 
-    **User Manual:**
+    **User Manual**
 A user manual for the CureSoul website, providing step-by-step instructions for using each feature of the website, including how to sign up, take the Beck Inventory Test, and access the music, quotations, and poetry sections.
 
-    Privacy Policy:
+    **Privacy Policy**
 A privacy policy for the CureSoul website, outlining how user data will be collected, stored, and used, and providing information on how to contact the website administrators with any questions or concerns.
 
-    **Terms and Conditions:**
+    **Terms and Conditions**
 A terms and conditions agreement for the CureSoul website, outlining the rules and regulations for using the site, including limitations on liability, intellectual property rights, and dispute resolution mechanism.
 
 
