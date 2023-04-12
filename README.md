@@ -42,15 +42,25 @@ InHouse Project
 - FRONTEND 	:	HTML, CSS, JavaScript
 
 # Interface
+
  ![Home](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/homePage_1.png)
+ 
  ![About](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/About_2.png)
+ 
  ![Services](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/Services_3.png)
+ 
  ![FAQ](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/FAQ_4.png)
+ 
  ![SignUp](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/SignUp_5.png)
+ 
  ![Login](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/Login_6.png)
+ 
  ![UserInterface](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/UserInterface_7.png)
+ 
  ![BeckInventory](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/BeckInventory_7.png)
+ 
  ![Profile](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/Profile_8.png)
+ 
  ![Score](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/Score_9.png)
 
 # Deployment
