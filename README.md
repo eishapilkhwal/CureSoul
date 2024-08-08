@@ -63,6 +63,7 @@ InHouse Project
  
  ![Score](https://github.com/eishapilkhwal/CureSoul/blob/main/Interface/Score_9.png)
 
+<!---
 # Deployment
     For Deployment of our project, we have used 000Webhost. It supports various languages like Php, MMySQL and many more. By seeing its compatibility with our project we have considered 000Webhost for deployment purpose.
 
@@ -74,6 +75,7 @@ InHouse Project
   
  # Repository
   https://github.com/eishapilkhwal/CureSoul
+  -->
   
  
 
